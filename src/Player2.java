@@ -8,11 +8,6 @@ public class Player2 extends PlayerKind1 {
     }
 
     @Override
-    public double getPrice() {
-        return super.getPrice();
-    }
-
-    @Override
     public void playSong() {
         System.out.println("error");
     }
