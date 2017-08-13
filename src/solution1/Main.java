@@ -1,15 +1,17 @@
+package solution1;
+
 /**
  * Created by user on 13.08.17.
  */
 public class Main {
 
     public static void main(String[] args) {
-//        Player p = new Player1(22);
+//        solution1.Player p = new solution1.Player1(22);
 //        p.getPrice();
 //        p.playSong();
 //        System.out.println();
 //
-//        Player p1 = new Player2(23);
+//        solution1.Player p1 = new solution1.Player2(23);
 //        p1.playSong();
 
         Player6 player = new Player6(23);
@@ -25,5 +27,7 @@ public class Main {
         player5.playlist[0] = "sdfsf";
         player5.playlist[1] = "AAAAA";
         player5.playAllSongs();
+
+
     }
 }
