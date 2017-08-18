@@ -16,6 +16,15 @@ public class Player1_1 extends Player1 implements Showable{
         super(price);
     }
 
+    @Override
+    public void playSong() {
+//        super.playSong();
+        returnSongName();
+    }
+
+    public String returnSongName(){
+        return this.songName;
+    }
 
     @Override
     public void show(Pane root) {
